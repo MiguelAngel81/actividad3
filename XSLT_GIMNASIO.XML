@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GIMNASIO>
+	<empresa>ALTAFIT ALCALA</empresa>
+	<oferta numero="1">
+		<temporada>2021 - 2022 </temporada>
+		<contrato>
+			<informacion>Personas afectadas</informacion>
+			<personas> Mayores de edad </personas>
+			<dias>7</dias>
+			<clases>aerobico</clases>
+        </contrato>
+		<clases>
+			<clase dia="Lunes"  >
+				<nombre>Spining</nombre>
+				<hora>10:00</hora>
+            </clase>
+			<clase dia="Martes">
+				<nombre>Zumba</nombre>
+				<hora>12:00</hora>
+            </clase>	
+			<clase dia="Miercoles">
+				<nombre>Capoeria</nombre>
+				<hora>17:00</hora>
+            </clase>		
+			<clase dia="Jueves">
+				<nombre>Taekwondo</nombre>
+				<hora>18:00</hora>
+            </clase>	
+			<clase dia="Viernes">
+				<nombre>Ciclo indor </nombre>
+				<hora>20:00</hora>
+            </clase>			
+			<clase dia="Sabado">
+				<nombre>BodyCombat</nombre>
+				<hora>20:00</hora>	
+            </clase>	
+            <clase dia="Domingo">
+				<nombre>Boxeo</nombre>
+				<hora>22:00</hora>				
+            </clase>				
+		</clases>
+	</oferta>
+
+	<oferta numero ="2">
+		<contrato>
+			<informacion>Personas afectadas</informacion>
+			<personas>Tercera Edad</personas>
+			<dias>7</dias>
+        </contrato>
+        <clases>
+			<clase dia="Lunes">
+				<nombre>Coordinacion</nombre>
+				<hora>10:00</hora>
+            </clase>
+			<clase dia="Martes">
+				<nombre>Pilates</nombre>
+				<hora>12:00</hora>
+            </clase>	
+			<clase dia="Miercoles">
+				<nombre>Yoga</nombre>
+				<hora>17:00</hora>
+            </clase>		
+			<clase dia="Jueves">
+				<nombre>Pilates</nombre>
+				<hora>18:00</hora>
+            </clase>	
+			<clase dia="Viernes">
+				<nombre>Yoga</nombre>
+				<hora>20:00</hora>
+            </clase>			
+			<clase dia="Sabado">
+				<nombre>Gimnasia</nombre>
+				<hora>20:00</hora>	
+            </clase>	
+            <clase dia="Domingo">
+				<nombre>Gimnasia pasiva</nombre>
+				<hora>20:00</hora>				
+            </clase>				
+		</clases>
+	</oferta>
+</GIMNASIO>
