@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GIMNASIO>
+	<informacion>ALTAFIT ALCALA</informacion>
+	<descuento codigo="1">
+		<año>2021 - 2022 </año>
+		<detalles>
+			<informacion>Personas afectadas</informacion>
+			<clientes> Mayores de edad </clientes>
+			<dias>7</dias>
+			<clases>aerobico</clases>
+		</detalles>
+		<clases>
+			<clase dia="1">
+				<nombre>Spining</nombre>
+				<hora>10:00</hora>
+            </clase>
+			<clase dia="2">
+				<nombre>Zumba</nombre>
+				<hora>12:00</hora>
+            </clase>	
+			<clase dia="3">
+				<nombre>Capoeria</nombre>
+				<hora>17:00</hora>
+            </clase>		
+			<clase dia="4">
+				<nombre>Taekwondo</nombre>
+				<hora>18:00</hora>
+            </clase>	
+			<clase dia="5">
+				<nombre>Ciclo indor </nombre>
+				<hora>20:00</hora>
+            </clase>			
+			<clase dia="6">
+				<nombre>BodyCombat</nombre>
+				<hora>20:00</hora>	
+            </clase>	
+            <clase dia="7">
+				<nombre>Boxeo</nombre>
+				<hora>22:00</hora>				
+            </clase>				
+		</clases>
+	</descuento>
+
+	<descuento codigo="2">
+		<detalles>
+			<informacion>Personas afectadas</informacion>
+			<clientes>Tercera Edad</clientes>
+			<dias>7</dias>
+		</detalles>
+        <clases>
+			<clase dia="1">
+				<nombre>Coordinacion</nombre>
+				<hora>10:00</hora>
+            </clase>
+			<clase dia="2">
+				<nombre>Pilates</nombre>
+				<hora>12:00</hora>
+            </clase>	
+			<clase dia="3">
+				<nombre>Yoga</nombre>
+				<hora>17:00</hora>
+            </clase>		
+			<clase dia="4">
+				<nombre>Pilates</nombre>
+				<hora>18:00</hora>
+            </clase>	
+			<clase dia="5">
+				<nombre>Yoga</nombre>
+				<hora>20:00</hora>
+            </clase>			
+			<clase dia="6">
+				<nombre>Gimnasia</nombre>
+				<hora>20:00</hora>	
+            </clase>	
+            <clase dia="7">
+				<nombre>Gimnasia pasiva</nombre>
+				<hora>20:00</hora>				
+            </clase>				
+		</clases>
+	</descuento>
+</GIMNASIO>
