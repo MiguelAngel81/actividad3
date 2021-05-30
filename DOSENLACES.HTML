@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CONTACTO</title>
+    <title>Instituto Tecnologico Edix</title>
 </head>
 <body>
     <header>
@@ -18,7 +18,7 @@
                 z-index: 25;
                 width: 10%; 
                 height: 10%;
-            } 
+            }   
             #titulo{
                 position: fixed;
                 width: 100%;
@@ -70,78 +70,32 @@
             </style>
         </header>
         <div id="titulo">
-            <h1 style="margin-left: 50px;"><u>CONTACTO</u></h1> 
+            <h1 style="margin-left: 50px;"><u>¿QUIENES SOMOS?</u></h1> 
         </div>
         <nav>
             <ul id="menu">
             <li><a href=web.html>Inicio</a></li>
-            
-                <li><a href=institutoTecnologicoEdix.html>Ciclo</a>
-            
                 </li>
-               
+                <li><a href=nosotros.html>Nosotros</a>
+                <ul>
+                    <li><a href=quienes_somos.html>Quiénes somos</a></li>
+                </ul>
+                </li>
             <li><a href=contacto.html>Contacto</a></li>
             </ul>
         </nav>
-
+    </header>
 
     <section>
-
-    <h2>Informacion</h2>
-
-    <form action="procesarPeticion.jsp" method="get">
-        
-        <input type="text" name="nombre" placeholder="Escribe tu nombre" required/>	
-        <br/>
-        <br/>
-       
-        <input type="text" name="nombre" placeholder="Escribe tus apellidos" required/>
-        <br/>
-        <br/>
-
-        <input type="tel" name="telefono" placeholder="Escribe tu telefono" required/>
-        <br/>
-        <br/>
-        
-        <input type="email" name="email" placeholder="Escribe tu mail" required/>
-        <br/>
-        <br/>
-    
-        <input type="number" min="18" max="120" name="edad" placeholder="Edad" required/>
-        <br/>
-        <br/>
-
-        <label for="Ciclo">Ciclo </label>
-        <br/>	
-            <input type="DAM" name="Programacion" value="" /> Desarrollo<br />	
-            <input type="DAW" name="Web" value="" /> PaginasWeb<br />		
-        <br/>
-
-        <label for="Comentarios">Comentarios: </label>
-              <br/>	
-        <textarea rows="8" cols="100" name="noticia"></textarea>
-        <br/>
-        <br/>
-        <input type="date" name="fecha"/>
-        <br/>
-        <br/>
-	
-        He leido y acepto los terminos y condiciones de uso 
-        <input type="checkbox" name="terminos" value="Y" />
-        <br/>	
-        <br/>
-
-        <input type="submit" value="Enviar"/>
-
-    </form>
+        <h2 style="color:royalblue"><u> Instituto Tecnologico Edix</u></h3>
+        <p>Somos un instituto que apostamos por la FP <b>DAM</b> y <b>DAW</b>. </p>
+        <p>Las empresas lo que mas demandan son personas con FP</p>
+        <h1>!SI QUIERRES MAS INFORMACION! <a href="contacto.html"> CONTACTO </a></h1>
+        <h2>!PRECIOS GRADO SUPERIOR DAM/DAW! <a href="precios.html"> PRECIOS </a></h2>
     </section>
-    <aside>
-        <a href="web.html"><img class="logo" src="logo.jpg"/></a>
-    </aside>
 
     <footer>
         <p>Todos los derechos reservados. Mundo Deporte copyright 2021 &copy;</p>
     </footer>
-    
 </body>
 </html>
